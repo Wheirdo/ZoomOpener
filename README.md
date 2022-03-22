@@ -1,2 +1,6 @@
 # ZoomOpener
-Java program designed to automatically open scheduled zoom calls 5 minutes before they started
+
+The ZoomOpener was designed for opening my Zoom calls for my classes during the pandemic. 
+It reads in a CSV file (see Fall2020.csv for an example of the proper formating), then asks user for the name (or nickname) of the class you want to open
+After, it opens Google Chrome, then types out the URL letter by letter using my type funciton, then types enter and a password, if there is one. 
+The type function uses the Robot class's .keyPress(). More information on type can be found on my RobotTypeClass git page
